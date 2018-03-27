@@ -17,6 +17,8 @@ BEGIN {
     XSLoader::load 'Nick::Audio::ReplayGain' => $VERSION;
 }
 
+=pod
+
 =head1 NAME
 
 Nick::Audio::ReplayGain - Wrapper for ReplayGainAnalysis.
